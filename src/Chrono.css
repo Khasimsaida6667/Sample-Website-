@@ -1,0 +1,44 @@
+
+.chrono-container {
+    margin: 0 auto;
+    width: 50%;
+    }
+
+    .chrono-title {
+    text-align: center;
+    }
+
+    .chrono {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .event {
+    display: flex;
+    margin-bottom: 20px;
+    border-left: 2px solid #1293de; /* Add vertical line for each event */
+    padding-left: 20px; /* Add space for the line */
+    }
+
+    .event-date {
+    font-size: 14px;
+    font-weight: bold;
+    min-width: 100px;
+    padding-right: 20px;
+    }
+
+    .event-content {
+    flex-grow: 0;
+    }
+
+    .event-content h3 {
+    margin-top: 0;
+    }
+
+    .event-content p {
+    margin-bottom: 0;
+    }

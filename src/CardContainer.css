@@ -1,0 +1,114 @@
+/* CardContainer.css */
+
+.card-container {
+    position: relative;
+    width: 50%;
+    margin-right: 40px;
+    height: auto;
+    overflow: hidden;
+    }
+
+    .cards {
+    display: flex;
+    transition: transform 0.3s ease;
+    }
+    .row{
+    display: flex;
+    }
+    .col{
+    display: flex;
+    flex-direction: column;
+
+    }
+
+    .card {
+    flex: 0 0 auto;
+    width: 100px; /* Adjust card width as needed */
+    height: 350px; /* Adjust card height as needed */
+    margin: 0 5px; /* Adjust margin as needed */
+    padding: 10px; /* Adjust padding as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .card.active {
+    background-color: lightblue;
+    }
+
+    .arrow {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    z-index: 1; /* Ensure arrows are above cards */
+    }
+
+    .arrow-left {
+    left: 20px;
+    }
+
+    .arrow-right {
+    right: 20px;
+    }
+
+    .arrow:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .pagination-dots {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    }
+
+    .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    }
+
+    .dot.active-dot {
+    background-color: #333;
+
+
+    }
+
+    .load-more-button {
+    position: relative;
+    margin: auto;
+    left: 50%;
+    margin-top: 20px;
+    transform: translateX(-50%);
+    transform: translateY(-70%);
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    .images{
+        width: 100px;
+    }
+    .con3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
