@@ -1,5 +1,3 @@
-/* CardContainer.css */
-
 .card-container {
     position: relative;
     width: 50%;
@@ -23,10 +21,10 @@
 
     .card {
     flex: 0 0 auto;
-    width: 100px; /* Adjust card width as needed */
-    height: 350px; /* Adjust card height as needed */
-    margin: 0 5px; /* Adjust margin as needed */
-    padding: 10px; /* Adjust padding as needed */
+    width: 100px; 
+    height: 350px; 
+    margin: 0 5px; 
+    padding: 10px; 
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #fff;
@@ -49,7 +47,7 @@
     padding: 10px;
     border-radius: 50%;
     transition: background-color 0.3s ease;
-    z-index: 1; /* Ensure arrows are above cards */
+    z-index: 1; 
     }
 
     .arrow-left {

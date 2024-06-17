@@ -1,6 +1,5 @@
-// Chrono.js
 import React from 'react';
-import './Chrono.css'; // Import CSS for styling
+import './Chrono.css'; 
 
 const Chrono = () => {
     const events = [

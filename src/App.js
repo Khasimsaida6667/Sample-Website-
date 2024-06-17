@@ -1,10 +1,9 @@
 
-// App.js
 import React, { useState, useEffect } from 'react';
-import './App.css'; // Assuming you have CSS for styling
+import './App.css'; 
 import CardContainer from './CardContainer';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import Chrono from './Chrono'; // Import the CardContainer component
+import Chrono from './Chrono'; 
 
 // HorizontalCard component
 const HorizontalCard = ({ title, description, image }) => {
@@ -19,7 +18,7 @@ const HorizontalCard = ({ title, description, image }) => {
   );
 };
 
-// App component
+
 const App = () => {
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [currentDateTime, setCurrentDateTime] = useState('');
@@ -45,14 +44,14 @@ const App = () => {
   }; return (<div className="app">
 
     <div className={`sidebar ${sidebarOpen ? 'open' : 'closed'}`}>
-      {/* Sidebar content */}
+
       <h2>Sidebar</h2>
-      {/* Add your sidebar content here */}
+    
       <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" />
     </div>
     <div className="main-content">
       <button onClick={toggleSidebar}>{sidebarOpen ? 'Collapse' : 'Expand'}</button>
-      {/* Main content */}
+    
 
       <div className='con1'>
         <div className="greeting">{greeting} Sir/Madam</div>
@@ -61,7 +60,7 @@ const App = () => {
 
 
 
-      {/* Include the CardContainer component here */}
+      
 
       <div className="horizontal-cards">
         <HorizontalCard title="Card 1" description="Description for Card 1" image="https://i.postimg.cc/C5ZdGDCv/pexels-pixabay-48195.jpg" />

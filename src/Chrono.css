@@ -20,8 +20,8 @@
     .event {
     display: flex;
     margin-bottom: 20px;
-    border-left: 2px solid #1293de; /* Add vertical line for each event */
-    padding-left: 20px; /* Add space for the line */
+    border-left: 2px solid #1293de; 
+    padding-left: 20px; 
     }
 
     .event-date {

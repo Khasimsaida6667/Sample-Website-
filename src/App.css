@@ -1,4 +1,4 @@
-/* App.css */
+
 
 .app {
   display: flex;
@@ -61,7 +61,7 @@
   }
   
   .item {
-  width: calc(25% - 20px); /* Adjust the width as needed */
+  width: calc(25% - 20px); 
   margin: 10px;
   padding: 10px;
   background-color: #f0f0f0;

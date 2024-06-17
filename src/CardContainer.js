@@ -1,10 +1,9 @@
-// CardContainer.js
 import React, { useState } from 'react';
-import './CardContainer.css'; // Import your CSS file for styling
+import './CardContainer.css'; 
 
 const CardContainer = () => {
     const [currentPage, setCurrentPage] = useState(0);
-    const [visibleCards, setVisibleCards] = useState(10); // Initial number of visible cards
+    const [visibleCards, setVisibleCards] = useState(10); 
 
     const cardData =[
         {
@@ -109,9 +108,6 @@ const CardContainer = () => {
         setCurrentPage((prevPage) => (prevPage === 0 ? cardData.length - 1 : prevPage - 1));
     };
 
-    const handleDotClick = (index) => {
-        setCurrentPage(index);
-    };
 
     const loadMore = () => {
         setVisibleCards((prevVisibleCards) => prevVisibleCards + 5); // Increase the number of visible cards
